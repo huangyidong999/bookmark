@@ -34,20 +34,7 @@
         </form>
   </div>
 
-  <div class="box">
-    <% for(let item2 of listItems2){%>
-      <div class="item">
-        <form action="/delete" method="post">
-          <input type="checkbox" onchange="this.form.submit()" name="deleteItemId" value="<%= item2.id %>">
-        </form>
 
-        <p id="title<%=item2.id%>">
-          <%= item2.objection %>
-        </p>        
-        
-      </div>
-    <% } %>
-  </div>
 
   <script>
     function handler(id) {
