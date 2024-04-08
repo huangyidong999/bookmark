@@ -7,7 +7,7 @@ const port = 3000;
 
 const db = new pg.Client({
   user: "permalist_4fcd_user",
-  host: "postgres://permalist_4fcd_user:B93u4EaDtZ5Mi1aEnnE3WhxFssrm7G9D@dpg-coa7aev79t8c73edphr0-a.oregon-postgres.render.com/permalist_4fcd",
+  host: "coa7aev79t8c73edphr0-a.oregon-postgres.render.com",
   database: "permalist_4fcd",
   password: "B93u4EaDtZ5Mi1aEnnE3WhxFssrm7G9D",
   port: 5432,
