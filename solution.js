@@ -11,6 +11,7 @@ const db = new pg.Client({
   database: "permalist_4fcd",
   password: "B93u4EaDtZ5Mi1aEnnE3WhxFssrm7G9D",
   port: 5432,
+  ssl: true
 });
 db.connect();
 
